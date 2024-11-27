@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SST Quiz App  Daily Quiz To Test Your JavaScript Knowledge</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <main>
+        <section class="quiz">
+            <div class="heading">
+                <p class="title">SST Quiz</p>
+                <p class="subtitle">Daily Quiz To Test Your JavaScript Knowledge!</p>
+            </div>
+
+            <div class="result hide">
+                <p></p>
+                <p class="reload">
+                    <button onclick="document.location.reload(true)">Try Again?</button>
+                </p>
+            </div>
+
+            <form class="quiz-form">
+                <div class="question">
+                    <p>1. Inside which HTML element do we put the JavaScript?</p>
+                    <div class="option">
+                        <input type="radio" name="q1" id="wrong" value="A" checked>
+                        <label for="wrong">js</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" id="wrong" value="B">
+                        <label for="wrong">javascript</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" id="wrong" value="C">
+                        <label for="wrong">scripting</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" id="correct" value="D">
+                        <label for="correct">script</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>2. Where is the correct place to insert a JavaScript file?</p>
+                    <div class="option">
+                        <input type="radio" name="q2" id="correct" value="A" checked>
+                        <label for="correct">Inside head section</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" id="correct" value="B">
+                        <label for="correct">At the end of body section</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" id="wrong" value="C">
+                        <label for="wrong">After body section</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" id="wrong" value="D">
+                        <label for="wrong">None</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>3. What is the correct syntax for referring to an external script called "index.js"?</p>
+                    <div class="option">
+                        <input type="radio" name="q3" id="wrong" value="A" checked>
+                        <label for="wrong">&#60;script name="index.js"&#62;</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" id="wrong" value="B">
+                        <label for="wrong">&#60;script href="index.js"&#62;</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" id="correct" value="C">
+                        <label for="correct">&#60;script src="index.js"&#62;</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" id="wrong" value="D">
+                        <label for="wrong">All</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>4. How do you write "Hello World" in an alert box?</p>
+                    <div class="option">
+                        <input type="radio" name="q4" id="wrong" value="A" checked>
+                        <label for="wrong">pop("Hello World");</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" id="correct" value="B">
+                        <label for="correct">alert("Hello World");</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" id="wrong" value="C">
+                        <label for="wrong">popUp("Hello World");</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" id="wrong" value="D">
+                        <label for="wrong">alertUp("Hello World");</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>5. Which operator is used to assign a value to a variable?</p>
+                    <div class="option">
+                        <input type="radio" name="q5" id="wrong" value="A" checked>
+                        <label for="wrong">-</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" id="wrong" value="B">
+                        <label for="wrong">*</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" id="wrong" value="C">
+                        <label for="wrong">+</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" id="correct" value="D">
+                        <label for="correct">=</label>
+                    </div>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
